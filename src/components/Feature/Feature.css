@@ -1,0 +1,6 @@
+@media only screen and (max-width: 980px){
+    .home-featured{
+        display: flex;
+        flex-direction: column !important;
+    }
+}

@@ -1,0 +1,33 @@
+.bg_home{
+    background-image: url(/src/assets/bg.jpg);
+}
+
+
+.featureBox{
+    padding: 10px;
+    border: 1.4px solid rgb(243, 243, 243);
+    border-radius: 5px;
+    background-color: #ebebeb32;
+}
+
+.featureCardS::-webkit-scrollbar {
+  width: 6px;
+  height: 30px;
+}
+
+/* Track */
+.featureCardS::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(197, 197, 197); 
+  border-radius: 10px;
+}
+
+/* Handle */
+.featureCardS::-webkit-scrollbar-thumb {
+  background: orange !important; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.featureCardS::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
