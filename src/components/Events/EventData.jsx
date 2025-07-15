@@ -1,7 +1,7 @@
 import yoga from '../../assets/yoga.jpg'
-import dinner from '../../assets/dinner.WEBP'
+import dinner from '../../assets/dinner.webp'
 import wedding from '../../assets/wedding.jpg'
-import party from '../../assets/party.WEBP'
+import party from '../../assets/party.webp'
 
 
 
