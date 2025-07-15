@@ -1,8 +1,8 @@
 import React from 'react';
 import sunset from '../../assets/Sunset.jpg'
 import trek  from '../../assets/Trek.jpg'
-import culture from '../../assets/culture.WEBP'
-import spa from '../../assets/spa.WEBP'
+import culture from '../../assets/culture.webp'
+import spa from '../../assets/spa.webp'
 import privat from '../../assets/Private.jpg'
 import wine from '../../assets/wine.jpg'
 
