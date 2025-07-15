@@ -1,5 +1,5 @@
 import React from 'react';
-import sunset from '../../assets/Sunset.JPG'
+import sunset from '../../assets/Sunset.jpg'
 import trek  from '../../assets/Trek.JPG'
 import culture from '../../assets/culture.WEBP'
 import spa from '../../assets/spa.WEBP'
