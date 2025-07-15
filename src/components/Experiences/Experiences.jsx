@@ -1,10 +1,10 @@
 import React from 'react';
 import sunset from '../../assets/Sunset.jpg'
-import trek  from '../../assets/Trek.JPG'
+import trek  from '../../assets/Trek.jpg'
 import culture from '../../assets/culture.WEBP'
 import spa from '../../assets/spa.WEBP'
-import privat from '../../assets/Private.JPG'
-import wine from '../../assets/wine.JPG'
+import privat from '../../assets/Private.jpg'
+import wine from '../../assets/wine.jpg'
 
 
 
