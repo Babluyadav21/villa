@@ -63,7 +63,7 @@ const VillaInquiryForm = () => {
             type="text"
             name="name"
             placeholder="Your Name"
-            className="w-full border px-4 py-2 rounded"
+            className="w-full border px-4 py-2 rounded text-black"
             value={formData.name}
             onChange={handleChange}
           />
@@ -74,7 +74,7 @@ const VillaInquiryForm = () => {
             type="email"
             name="email"
             placeholder="Your Email"
-            className="w-full border px-4 py-2 rounded"
+            className="w-full border px-4 py-2 rounded text-black"
             value={formData.email}
             onChange={handleChange}
           />
@@ -85,7 +85,7 @@ const VillaInquiryForm = () => {
             type="number"
             name="guests"
             placeholder="Number of Guests"
-            className="w-full border px-4 py-2 rounded"
+            className="w-full border px-4 py-2 rounded text-black"
             value={formData.guests}
             onChange={handleChange}
           />
@@ -93,22 +93,22 @@ const VillaInquiryForm = () => {
         </div>
         <div className="flex flex-col sm:flex-row gap-4">
           <div className="flex-1">
-            <label className="text-sm block mb-1">Check-In</label>
+            <label className="text-sm block mb-1 text-black">Check-In</label>
             <input
               type="date"
               name="checkin"
-              className="w-full border px-4 py-2 rounded"
+              className="w-full border px-4 py-2 rounded text-black"
               value={formData.checkin}
               onChange={handleChange}
             />
             {errors.checkin && <p className="text-sm text-red-500 mt-1">{errors.checkin}</p>}
           </div>
           <div className="flex-1">
-            <label className="text-sm block mb-1">Check-Out</label>
+            <label className="text-sm block mb-1 text-black">Check-Out</label>
             <input
               type="date"
               name="checkout"
-              className="w-full border px-4 py-2 rounded"
+              className="w-full border px-4 py-2 rounded text-black"
               value={formData.checkout}
               onChange={handleChange}
             />
@@ -120,7 +120,7 @@ const VillaInquiryForm = () => {
             name="message"
             rows="2"
             placeholder="Your Message"
-            className="w-full border px-4 py-2 rounded"
+            className="w-full border px-4 py-2 rounded text-black"
             value={formData.message}
             onChange={handleChange}
           />

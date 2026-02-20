@@ -42,7 +42,7 @@ const Header = () => {
 
   return (
     <header className="bg-white text-black px-4 py-4 shadow-md">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/" className="text-3xl font-bold text-red-500">Radiant</Link>
 
         {/* Desktop Nav */}

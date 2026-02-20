@@ -9,8 +9,8 @@ import image9 from '../../assets/images/re13.webp';
 
 const Gallery = () => {
   return (
-    <section className="container mx-auto px-4 py-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-[#421da9] mb-12">
+    <section className="max-w-7xl  mx-auto  py-12 ">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-[#ffffff] mb-12">
         <span className="border-b-4 border-[#FF9444] pb-2 inline-block">
           Gallery of Moments Made for Memories
         </span>
@@ -18,7 +18,7 @@ const Gallery = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-4">
         {/* Large Hero Block */}
-        <div className="md:col-span-3 md:row-span-1 relative rounded-xl overflow-hidden group">
+        <div className="md:col-span-2 md:row-span-1 relative rounded-xl overflow-hidden group">
           <img src={image6} alt="Luxury Villa" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
           <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-6 text-white">
             <h2 className="text-2xl font-bold">Luxury Villa Retreat</h2>
@@ -29,11 +29,11 @@ const Gallery = () => {
         <div className="md:col-span-2 relative rounded-xl overflow-hidden group">
           <img src={image9} alt="More Features 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
           <div className="absolute inset-0 bg-black/40 flex items-end p-4 text-white">
-            <h3 className="text-lg font-semibold">More Features 1</h3>
+            <h3 className="text-lg font-semibold">Ocean View</h3>
           </div>
         </div>
 
-        <div className="md:col-span-1 relative rounded-xl overflow-hidden group">
+        <div className="md:col-span-2 relative rounded-xl overflow-hidden group">
           <img src={image7} alt="More Features 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
           <div className="absolute inset-0 bg-black/40 flex items-end p-4 text-white">
             <h3 className="text-lg font-semibold">More Features 2</h3>

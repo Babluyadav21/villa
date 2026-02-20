@@ -53,7 +53,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email"
-              className="flex-1 px-3 py-2 rounded bg-gray-800 text-white text-sm focus:outline-none focus:ring focus:ring-blue-500"
+              className="flex-1 px-3 py-2 rounded bg-gray-800 text-white border-amber-50 text-sm focus:outline-none focus:ring focus:ring-blue-500"
             />
             <button
               type="submit"
@@ -66,7 +66,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom bar */}
-      <div className="text-center text-sm text-gray-500 border-t border-gray-700 mt-12 pt-4 px-6">
+      <div className="text-center text-sm text-white border-t border-gray-700 mt-12 pt-4 px-6">
         &copy; {new Date().getFullYear()} My Villa. All rights reserved.
       </div>
     </footer>

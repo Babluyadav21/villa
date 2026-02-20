@@ -61,15 +61,15 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="min-h-screen  bg-white mb-12 ">
-      <div className="serHead w-full p-8  mb-12">
+    <div className="min-h-screen  bg-white  ">
+      <div className="serHead w-full p-8">
         <h2 className="text-4xl font-bold text-white mb-4 text-center">Our Services</h2>
         <p className="text-white mb-2 max-w-xl mx-auto text-lg text-center">
           Our villa offers a curated list of exclusive services to make your stay unforgettable.
         </p>
 
       </div>
-      <div className="max-w-6xl mx-auto text-center p-4">
+      <div className="max-w-7xl mx-auto text-center py-12">
 
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -78,9 +78,9 @@ const Services = () => {
               key={index}
               className="bg-gray-50 border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition"
             >
-              <div className="mb-4">{service.icon}</div>
-              <h2 className="text-xl font-semibold text-shadow-yellow-600 mb-2">{service.title}</h2>
-              <p className="text-gray-600 text-sm">{service.description}</p>
+              <div className="mb-3 flex items-center justify-center ">{service.icon}</div>
+              <h2 className="text-xl font-semibold text-shadow-yellow-600 mb-2 text-amber-500">{service.title}</h2>
+              <p className="text-gray-600 text-base">{service.description}</p>
             </div>
           ))}
         </div>

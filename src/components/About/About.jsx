@@ -29,12 +29,12 @@ const aboutContent = {
 const About = () => {
   return (
     <section
-      className="min-h-screen w-full bg-cover bg-center bg-fixed flex items-center justify-center"
+      className="min-h-screen  bg-cover bg-center bg-fixed flex items-center justify-center"
       style={{ backgroundImage: `url(${banner})` }}
     >
-      <article className="container mx-auto bg-white/80 shadow-xl p-6 sm:p-12 space-y-10 leading-relaxed text-gray-800  animate-fade-in">
+      <article className=" max-w-8xl   bg-white/80 shadow-xl p-6 sm:p-12 space-y-10 leading-relaxed text-gray-800  animate-fade-in">
         {/* 1. Identity */}
-        <header className="text-center">
+        <header className="text-center ">
           <h1 className="text-4xl font-bold mb-2 text-gray-900 fade-in-up">
             {aboutContent.identity.name}
           </h1>
